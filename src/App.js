@@ -1,11 +1,11 @@
 import Router from './Router/Router';
-import SidebarNav from './Helpers/SidebarNav/SidebarNav';
-import Header from './Helpers/Header/Header';
+import SidebarNav from './Components/SidebarNav/SidebarNav';
+import Header from './Components/Header/Header';
 import './App.scss';
-
 function App() {
   return (
     <div className="App">
+      
       <Header />
       <div className="content">
         <SidebarNav />
